@@ -98,11 +98,11 @@ def eventsRightClick(event):
 
 #Initialization of the window
 root = tk.Tk()
-root.title("Editeur")
+root.title("Editor")
 root.resizable(0,0)
 root.bind("<Button-1>", eventsLeftClick)
 root.bind("<Button-3>", eventsRightClick)
 
 #Starting up of the editor
-editor = Editor(root, int(input("Quel est le numéro du niveau ? ")))
+editor = Editor(root, int(input("What is the level number? ")))
 root.mainloop()

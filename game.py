@@ -90,9 +90,9 @@ class Game(tk.Canvas):
                     self.bricks.append(self.create_rectangle(col*self.bricksWidth, line*self.bricksHeight, (col+1)*self.bricksWidth, (line+1)*self.bricksHeight, fill=self.bricksColors[el], width=2, outline="#ffffff"))
         #If there is not level to load any more, game is finished and the end of game screen is displayed (with player time)
         except IOError:
-            self.displayText("JEU FINI EN\n" + "%02d mn %02d sec %02d" % (int(self.seconds)//60, int(self.seconds)%60, (self.seconds*100)%100), hide = False)
+            self.displayText("GAME ENDED IN\n" + "%02d mn %02d sec %02d" % (int(self.seconds)//60, int(self.seconds)%60, (self.seconds*100)%100), hide = False)
             return
-        self.displayText("NIVEAU\n"+str(self.levelNum))
+        self.displayText("LEVEL\n"+str(self.levelNum))
 
     #This method, called each 1/60 of seconde,
     #computes again properties of all elements (positions, collisions, effects...)
@@ -112,9 +112,9 @@ class Game(tk.Canvas):
 
         if not(self.textDisplayed):
             if self.won:
-                self.displayText("GAGNE !", callback = lambda: self.level(self.levelNum+1))
+                self.displayText("WON!", callback = lambda: self.level(self.levelNum+1))
             elif self.losed:
-                self.displayText("PERDU !", callback = lambda: self.level(self.levelNum))
+                self.displayText("LOST!", callback = lambda: self.level(self.levelNum))
         
         #Method called again after 1/60 of second (there is 60 frames per seconde)
         self.after(int(1000/60), self.nextFrame)
@@ -304,7 +304,7 @@ def eventsRelease(event):
 
 #Initialization of the window
 root = tk.Tk()
-root.title("Casse brique")
+root.title("Brick Breaker")
 root.resizable(0,0)
 root.bind("<Key>", eventsPress)
 root.bind("<KeyRelease>", eventsRelease)
