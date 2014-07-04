@@ -5,7 +5,7 @@ A simple and funny Brick Breaker in Python with an easy level-editor, created by
 
 ##How to play?
 
-![The Brick Breaker][game.png]
+![The Brick Breaker](game.png)
 
 Playing to our Brick Breaker is really simple:
 
@@ -15,7 +15,7 @@ Playing to our Brick Breaker is really simple:
 
 ##How to create/edit levels?
 
-![The Editor][editor.png]
+![The Editor](editor.png)
 
 Creating and editing levels is also an easy task:
 
