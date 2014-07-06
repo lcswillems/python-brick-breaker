@@ -1,4 +1,4 @@
-BrickBreaker-Python
+Python BrickBreaker
 ===================
 
 A simple and funny Brick Breaker in Python with an easy level-editor, created by 2 young French students [Lucas Willems](http://www.lucaswillems.com) and Aymeric Lhullier for their ISN (Initiation aux Sciences du Numérique) project.
