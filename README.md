@@ -1,9 +1,6 @@
-Python BrickBreaker
-===================
+This project is a simple and funny Brick Breaker with an easy level-editor, written in Python and created by 2 French students [Lucas Willems](http://www.lucaswillems.com) and Aymeric Lhullier for their ISN (Initiation aux Sciences du Numérique) project.
 
-A simple and funny Brick Breaker in Python with an easy level-editor, created by 2 young French students [Lucas Willems](http://www.lucaswillems.com) and Aymeric Lhullier for their ISN (Initiation aux Sciences du Numérique) project.
-
-##How to play ?
+# How to play?
 
 ![The Brick Breaker](game.png)
 
@@ -13,7 +10,7 @@ Playing to our Brick Breaker is really simple:
 2. Press `space bar` to start playing
 3. Play and finish levels faster as possible !
 
-##How to create/edit levels ?
+# How to create/edit levels?
 
 ![The Editor](editor.png)
 
