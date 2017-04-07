@@ -2,7 +2,7 @@ This project is a simple and funny Brick Breaker with an easy level-editor, writ
 
 # How to play?
 
-![The Brick Breaker](game.png)
+![The Brick Breaker](README - Game.png)
 
 Playing to our Brick Breaker is really simple:
 
@@ -12,7 +12,7 @@ Playing to our Brick Breaker is really simple:
 
 # How to create/edit levels?
 
-![The Editor](editor.png)
+![The Editor](README - Editor.png)
 
 Creating and editing levels is also an easy task:
 
