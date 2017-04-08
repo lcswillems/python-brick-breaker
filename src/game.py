@@ -3,7 +3,7 @@ import random
 import math
 import copy
 
-# Main class : inherit from tk.Canvas class
+# Main class: inherit from tk.Canvas class
 class Game(tk.Canvas):
     textDisplayed = False
     linesNb = 20
@@ -133,7 +133,7 @@ class Game(tk.Canvas):
             self.move(self.ball, x, 0)
 
     # This method, called at each frame, moves the ball.
-    # It computes :
+    # It computes:
     #     - collisions between ball and bricks/bar/edge of screen
     #     - next ball position using "ballAngle" and "ballSpeed" attributes
     #     - effects to the ball and the bar during collision with special bricks
@@ -171,10 +171,10 @@ class Game(tk.Canvas):
                         self.ballAngle = -self.ballAngle
                 
                 # If the brick is red, it becomes orange.
-                if brickColor == self.bricksColors["r"] :
+                if brickColor == self.bricksColors["r"]:
                     self.itemconfig(self.bricks[i], fill=self.bricksColors["o"])
                 # If the brick is orange, it becomes yellow.
-                elif brickColor == self.bricksColors["o"] :
+                elif brickColor == self.bricksColors["o"]:
                     self.itemconfig(self.bricks[i], fill=self.bricksColors["y"])
                 # If the brick is yellow (or an other color except red/orange), it is destroyed.
                 else:

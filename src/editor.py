@@ -3,7 +3,7 @@ import random
 import math
 import copy
 
-# Main class : inherit from tk.Canvas class
+# Main class: inherit from tk.Canvas class
 class Editor(tk.Canvas):
     linesNb = 20
 
