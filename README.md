@@ -18,9 +18,9 @@ Creating and editing levels is also an easy task:
 
 1. Open `editor.py`
 2. Enter the level number:
-  - If the level exists, it will be opened.
-  - If the level doesn't exist, it will be created.
+	- If the level exists, it will be opened.
+	- If the level doesn't exist, it will be created.
 3. Edit the level:
-  1. Left click on a brick at the bottom of the screen to select its color.
-  2. Left click on a brick at the middle/top of the screen to make it take the selected color.
-  3. Right click on a brick at the middle/top of the screen to delete it.
+	1. Left click on a brick at the bottom of the screen to select its color.
+	2. Left click on a brick at the middle/top of the screen to make it take the selected color.
+	3. Right click on a brick at the middle/top of the screen to delete it.
