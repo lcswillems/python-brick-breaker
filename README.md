@@ -2,21 +2,21 @@ This project is a simple and funny Brick Breaker with an easy level-editor, writ
 
 # How to play?
 
-![The Brick Breaker](README-game.png)
+![The Brick Breaker](README-images/game.png)
 
 Playing to our Brick Breaker is really simple:
 
-1. Open `game.py`
-2. Press `space bar` to start playing
-3. Play and finish levels faster as possible !
+1. Execute `> python3 game.py`
+2. Press `space` to start playing
+3. Play and finish levels as fast as possible !
 
 # How to create/edit levels?
 
-![The Editor](README-editor.png)
+![The Editor](README-images/editor.png)
 
 Creating and editing levels is also an easy task:
 
-1. Open `editor.py`
+1. Execute `python3 editor.py`
 2. Enter the level number:
 	- If the level exists, it will be opened.
 	- If the level doesn't exist, it will be created.
