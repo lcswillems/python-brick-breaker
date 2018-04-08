@@ -8,7 +8,7 @@ This project is a simple and funny Brick Breaker with an easy level-editor, writ
 
 Playing to our Brick Breaker is really simple:
 
-1. Execute `> python3 game.py`
+1. Execute `python3 game.py`
 2. Press `space` to start playing
 3. Play and finish levels as fast as possible !
 
