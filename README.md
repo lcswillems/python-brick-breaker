@@ -2,13 +2,17 @@
 
 This project is a simple and funny Brick Breaker with an easy level-editor, written in Python and created by 2 French students [Lucas Willems](http://www.lucaswillems.com) and Aymeric Lhullier for their ISN (Initiation aux Sciences du Numérique) project.
 
+## Requirements
+
+- Python 3
+
 ## How to play?
 
 <p align="center"><img src="README-images/game.png"></p>
 
 Playing to our Brick Breaker is really simple:
 
-1. Execute `python3 game.py`
+1. Execute `python game.py`
 2. Press `space` to start playing
 3. Play and finish levels as fast as possible !
 
@@ -18,7 +22,7 @@ Playing to our Brick Breaker is really simple:
 
 Creating and editing levels is also an easy task:
 
-1. Execute `python3 editor.py`
+1. Execute `python editor.py`
 2. Enter the level number:
 	- If the level exists, it will be opened.
 	- If the level doesn't exist, it will be created.
